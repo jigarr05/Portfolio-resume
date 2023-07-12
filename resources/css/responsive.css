@@ -1,0 +1,182 @@
+@media (max-width: 600px) {
+
+  header {
+    height: auto;
+    padding: 50px 0;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar {
+    margin-top: 40px;
+  }
+
+  .navbar li a {
+    font-size: 3.2  vw;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .pro-img {
+    display: none;
+  }
+
+  .profile-pic {
+    display: none;
+  }
+
+  .info {
+    text-align: center;
+    padding: 100px 0;
+    font-size: 2vw;
+  }
+
+  /* Education */
+
+  #resume {
+    padding: 50px;
+  }
+
+  #resume .title {
+    padding: 0;
+    padding-bottom: 30px;
+  }
+
+  .education {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .education .left {
+    padding: 10px 0;
+  }
+
+  .education .right {
+    text-align: center;
+  }
+
+  .list-main {
+    padding-bottom: 30px;
+  }
+
+  .list-main li h4{
+    font-size: 4vw;
+
+  }
+
+
+  /* work experience */
+  .experience {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .experience h3 {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .experience .left {
+    padding: 10px 0;
+  }
+
+  .experience .right {
+    text-align: left;
+  }
+
+  .list-main {
+    padding-bottom: 30px;
+  }
+
+  .list-main .list-sub li p{
+    font-size: 4vw;
+    justify-content: justify;
+  }
+
+  /* SKILLS */
+  .skills {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .skills h3 {
+    padding-top: 30px;
+  }
+
+  .skills .left {
+    padding: 10px 0;
+  }
+
+  .skills .right {
+    width: 100%;
+  }
+
+  .skills .right .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .skills .skill {
+    width: 100%;
+  }
+
+  .skills .skill .total {
+    width: 100%;
+  }
+
+  .bs .total {
+    margin-bottom: 30px;
+  }
+
+  /* ABOUT ME */
+  #about-me {
+    height: auto;
+  } 
+
+  #about-me .container {
+    width: 100%;
+  }
+
+  #about-me .img {
+    display: none;
+  }
+
+  #about-me .text {
+    padding: 0 50px;
+    padding-bottom: 50px;
+  } 
+
+  /* FOOTER */
+
+  footer .left {
+    padding-bottom: 30px;
+  }
+  
+  footer #contact{
+    letter-spacing: 3px;
+
+  }
+
+
+
+  
+
+
+
+
+  
+
+
+
+}
